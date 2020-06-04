@@ -9,6 +9,10 @@ public class InitController : MonoBehaviour
     void Start()
     {
         control = new Controller();
+
+
+        //
+        ArrayList array = new ArrayList();
     }
 
     // Update is called once per frame
