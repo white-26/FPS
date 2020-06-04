@@ -10,6 +10,9 @@ public class PlayerView : MonoBehaviour
     public Text hpLabel;//血量标签
     public Button addButton;//模拟按钮触发修改血量
 
+    /// <summary>
+    /// 添加一个事件
+    /// </summary>
     public event EventHandler OnClick;
     private void Start()
     {
